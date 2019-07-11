@@ -314,9 +314,10 @@ You may set values for the following keys:
 
 ``min_size``
 
-:Description: Sets the minimum number of replicas required for I/O.
-              See `Set the Number of Object Replicas`_ for further details.
-              Replicated pools only.
+:Description: Sets the minimum number of replicas or shards required for I/O.
+              For further details with **replicated pools**, see `Set the Number of Object Replicas`_
+              or http://docs.ceph.com/docs/master/rados/operations/erasure-code/#erasure-coded-pool-recovery
+              if **erasure coded**.
 
 :Type: Integer
 :Version: ``0.54`` and above
